@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "isMagicSquareTest1",
+      "setup": "gradle clean",
+      "run": "gradle test --tests LabFiveTests.isMagicSquareTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "isMagicSquareTest2",
+      "setup": "",
+      "run": "gradle test --tests LabFiveTests.isMagicSquareTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "magicSquareGeneratorTest1",
+      "setup": "",
+      "run": "gradle test --tests LabFiveTests.magicSquareGeneratorTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "magicSquareGeneratorTest2",
+      "setup": "",
+      "run": "gradle test --tests LabFiveTests.magicSquareGeneratorTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
